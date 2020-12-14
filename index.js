@@ -17,7 +17,7 @@ function execP(command = '', cwd) {
 
 // 获取服务配置文件
 function getServiceConfigdir(version = '', isDefault) {
-    const servicesDir = path.resolve('./services/');
+    const servicesDir = path.resolve(__dirname, './services/');
     if (!fs.existsSync(servicesDir)) {
         fs.mkdirSync(servicesDir);
     }
