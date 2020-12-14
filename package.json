@@ -1,0 +1,29 @@
+{
+  "name": "wslx",
+  "version": "1.0.0",
+  "description": "a tool to strengthen function of wsl. wsl功能增强工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wslx": "./bin/wslx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanbomo/wslx.git"
+  },
+  "keywords": [
+    "wsl",
+    "tool"
+  ],
+  "author": "lanbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanbomo/wslx/issues"
+  },
+  "homepage": "https://github.com/lanbomo/wslx#readme",
+  "dependencies": {
+    "commander": "6.1.0"
+  }
+}
