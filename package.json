@@ -1,6 +1,6 @@
 {
   "name": "wslx",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a tool to strengthen function of wsl. wsl功能增强工具",
   "main": "index.js",
   "scripts": {
